@@ -1,0 +1,21 @@
+{
+  "name": "d-textarea",
+  "version": "0.0.0",
+  "description": "Expanding textarea for Derby.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ile/d-textarea.git"
+  },
+  "keywords": [
+    "derby"
+  ],
+  "author": "Ilkka Huotari",
+  "license": "The MIT License (MIT)",
+  "bugs": {
+    "url": "https://github.com/ile/d-textarea/issues"
+  }
+}
