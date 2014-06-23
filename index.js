@@ -15,9 +15,9 @@ DerbyTextarea.prototype.create = function(model) {
 
 	function setText() {
 		if (span.textContent)
-			span.textContent = area.value || '';
+			span.textContent = area.value;
 		else
-			span.innerText = area.value || '';
+			span.innerText = area.value;
 	}
 
 	if (area.addEventListener) {
