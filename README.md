@@ -11,8 +11,6 @@ http://alistapart.com/article/expanding-text-areas-made-elegant/
 app.component(require('d-textarea'));
 ```
 
-Templates:
-
 ```html
 <view name="d-textarea" text="{{#root._page.text}}"></view>
 ```
