@@ -1,6 +1,6 @@
 {
   "name": "d-textarea",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Expanding textarea for Derby.js",
   "main": "index.js",
   "scripts": {
