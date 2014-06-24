@@ -30,3 +30,10 @@ app.proto.textareaKeyhandler = function(event, element) { /* do something */}
 ```
 
 
+## style.css
+
+Needs to be imported from the main app now. In styles/app/index.styl:
+
+```css
+@import '../../node_modules/d-textarea/style.css'
+```
