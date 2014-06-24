@@ -10,7 +10,7 @@ http://alistapart.com/article/expanding-text-areas-made-elegant/
 Javascript:
 
 ```javascript
-app.component(require 'd-textarea');
+app.component(require('d-textarea'));
 ```
 
 Templates:
