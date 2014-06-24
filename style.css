@@ -8,7 +8,7 @@
   white-space: pre-wrap;
   word-wrap: break-word;
   padding: 7px;
-  font: 400 16px/22px 'PT Sans', helvetica, arial, sans-serif;
+  font: 400 14px/22px helvetica, arial, sans-serif;
   min-height: 100px;
 }
 .d-textarea > textarea {
