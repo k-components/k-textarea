@@ -13,3 +13,7 @@ DerbyTextarea.prototype.create = function(model) {
 	this.expandingArea.className += " active";
 };
 
+DerbyTextarea.prototype.emitKeydown = function(ev, el) {
+	this.emit("keydown", ev, el);
+};
+
