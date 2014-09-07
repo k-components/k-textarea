@@ -1,5 +1,6 @@
 .d-textarea {
   position: relative;
+  display: inline-block;
 }
 .d-textarea > textarea,
 .d-textarea > pre {
