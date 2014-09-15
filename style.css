@@ -3,7 +3,6 @@
 }
 .d-textarea > textarea,
 .d-textarea > pre {
-  background: transparent;
 /* Make the text soft-wrap */
   white-space: pre-wrap;
   word-wrap: break-word;
