@@ -5,6 +5,10 @@ Expanding textarea for Derby.js
 
 http://alistapart.com/article/expanding-text-areas-made-elegant/
 
+##Demo
+
+https://derby-demos.herokuapp.com/d-textarea
+
 ## How to use
 
 ```javascript
