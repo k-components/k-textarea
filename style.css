@@ -1,8 +1,8 @@
-.d-textarea {
+.k-textarea {
   position: relative;
 }
-.d-textarea > textarea,
-.d-textarea > pre {
+.k-textarea > textarea,
+.k-textarea > pre {
 /* Make the text soft-wrap */
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -10,7 +10,7 @@
   font: 400 14px/22px helvetica, arial, sans-serif;
   min-height: 100px;
 }
-.d-textarea > textarea {
+.k-textarea > textarea {
 /* The border-box box model is used to allow
     * padding whilst still keeping the overall width
     * at exactly that of the containing element.
@@ -20,7 +20,7 @@
 /* This height is used when JS is disabled */
   height: 100px;
 }
-.d-textarea.active > textarea {
+.k-textarea.active > textarea {
 /* Hide any scrollbars */
   overflow: hidden;
   position: absolute;
@@ -30,10 +30,10 @@
 /* Remove WebKit user-resize widget */
   resize: none;
 }
-.d-textarea > pre {
+.k-textarea > pre {
   display: none;
 }
-.d-textarea.active > pre {
+.k-textarea.active > pre {
   display: block;
 /* Hide the text; just using it for sizing */
   visibility: hidden;
