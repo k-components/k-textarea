@@ -1,7 +1,7 @@
-d-textarea
+k-textarea
 ==========
 
-Expanding textarea for Derby.js
+Expanding textarea for KanteleJS
 
 http://alistapart.com/article/expanding-text-areas-made-elegant/
 
@@ -12,17 +12,17 @@ https://derby-demos.herokuapp.com/d-textarea
 ## How to use
 
 ```javascript
-app.component(require('d-textarea'));
+app.component(require('k-textarea'));
 ```
 
 ```html
-<view name="d-textarea" text="{{#root._page.text}}"></view>
+<view name="k-textarea" text="{{#root._page.text}}"></view>
 ```
 
 Or 
 
 ```javascript
-app.component(require('d-textarea'));
+app.component(require('k-textarea'));
 ```
 
 ```html
