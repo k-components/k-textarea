@@ -1,7 +1,7 @@
 {
   "name": "k-textarea",
-  "version": "0.1.2",
-  "description": "Expanding textarea for Derby.js",
+  "version": "0.1.3",
+  "description": "Expanding textarea for KanteleJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

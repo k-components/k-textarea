@@ -1,0 +1,40 @@
+.k-textarea 
+	position relative
+
+.k-textarea > textarea,
+.k-textarea > pre 
+	/* Make the text soft-wrap */
+	white-space pre-wrap
+	word-wrap break-word
+	padding 7px
+	font 400 14px/22px helvetica, arial, sans-serif
+	min-height 100px
+
+.k-textarea > textarea 
+	/* The border-box box model is used to allow
+			* padding whilst still keeping the overall width
+			* at exactly that of the containing element.
+			*/
+	box-sizing border-box
+	width 100%
+	/* This height is used when JS is disabled */
+	height 100px
+
+.k-textarea.active > textarea 
+	/* Hide any scrollbars */
+	overflow hidden
+	position absolute
+	top 0
+	left 0
+	height 100%
+	/* Remove WebKit user-resize widget */
+	resize none
+
+.k-textarea > pre 
+	display none
+
+.k-textarea.active > pre 
+	display block
+	/* Hide the text just using it for sizing */
+	visibility hidden
+
