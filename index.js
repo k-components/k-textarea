@@ -10,7 +10,15 @@ DerbyTextarea.prototype.init = function(model) {
 };
 
 DerbyTextarea.prototype.create = function(model) {
+	var self = this;
+	
 	this.expandingArea.className += " active";
+
+	model.on('change', model.at('autofocus'), function(val) {
+		if (val) {
+			self.input.focus();
+		}
+	});	
 };
 
 DerbyTextarea.prototype.emitKeydown = function(ev, el) {
