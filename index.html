@@ -1,5 +1,6 @@
 <index:>
 	<div as="expandingArea" class="k-textarea {{@class2}}">
-		<textarea as="input" on-keydown="emitKeydown($event, $element)" id="{{@id}}" disabled="{{@disabled}}" name="{{@name_}}" placeholder="{{@placeholder}}" class="{{@class}}">{{@text}}</textarea>
 		<pre><span>{{@text}}</span><br></pre>
+		<textarea as="input" on-keydown="emitKeydown($event, $element)" id="{{@id}}" disabled="{{@disabled}}" name="{{@name_}}" placeholder="{{@placeholder}}" class="{{@class}}">{{@text}}</textarea>
+    {{@content}}
 	</div>
