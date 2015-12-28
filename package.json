@@ -1,6 +1,6 @@
 {
   "name": "k-textarea",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Expanding textarea for KanteleJS",
   "main": "index.js",
   "scripts": {
