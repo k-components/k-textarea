@@ -1,21 +1,21 @@
 {
-  "name": "k-textarea",
-  "version": "0.1.6",
-  "description": "Expanding textarea for KanteleJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/k-component/k-textarea.git"
-  },
-  "keywords": [
-    "derby"
-  ],
-  "author": "Ilkka Huotari",
-  "license": "The MIT License (MIT)",
-  "bugs": {
-    "url": "https://github.com/k-components/k-textarea/issues"
-  }
+	"name": "k-textarea",
+	"version": "0.1.7",
+	"description": "Expanding textarea for KanteleJS",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/k-component/k-textarea.git"
+	},
+	"keywords": [
+		"derby"
+	],
+	"author": "Ilkka Huotari",
+	"license": "The MIT License (MIT)",
+	"bugs": {
+		"url": "https://github.com/k-components/k-textarea/issues"
+	}
 }
