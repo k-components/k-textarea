@@ -1,6 +1,6 @@
 <index:>
 	<div as="expandingArea" class="k-textarea {{@class2}}">
 		<pre><span>{{@text}}</span><br></pre>
-		<textarea as="input" on-keydown="emitKeydown($event, $element)" on-focus="focus($event, $element)" on-blur="blur($event, $element)" id="{{@id}}" disabled="{{@disabled}}" name="{{@name_}}" placeholder="{{@placeholder}}" class="{{@class}}" required="{{@required? true: false}}">{{@text}}</textarea>
+		<textarea as="input" on-keydown="emitKeydown($event, $element)" on-focus="focus($event, $element)" on-blur="blur($event, $element)" id="{{@id}}" disabled="{{@disabled}}" name="{{@name_}}" placeholder="{{@placeholder}}" class="{{@class}}" required="{{@required? true: false}}" autofocus="{{@autofocus? true: false}}">{{@text}}</textarea>
 		{{@content}}
 	</div>
